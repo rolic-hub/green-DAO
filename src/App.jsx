@@ -169,17 +169,17 @@ const App = () => {
       setIsClaiming(false);
     }
   };
-  if (network?.[0].data.chain.id !== ChainId.Rinkeby) {
-    return (
-      <div className="unsupported-network">
-        <h2>Please connect to Rinkeby</h2>
-        <p>
-          This dapp only works on the Rinkeby network, please switch networks in
-          your connected wallet.
-        </p>
-      </div>
-    );
-  }
+//   if (network?.[0].data.chain.id !== ChainId.Rinkeby) {
+//     return (
+//       <div className="unsupported-network">
+//         <h2>Please connect to Rinkeby</h2>
+//         <p>
+//           This dapp only works on the Rinkeby network, please switch networks in
+//           your connected wallet.
+//         </p>
+//       </div>
+//     );
+//   }
 
   if (!address) {
     return (
